@@ -34,21 +34,6 @@ A hands-on Linux Operating System security hardening lab completed as part of **
 | **fail2ban** | Brute force protection |
 | **umask** | Default file permission control |
 
-```
-linux-os-security-hardening/
-│
-├── README.md                          # This file
-├── Lab-OS-Security-Hardening.pdf      # Full lab report with findings
-├── configs/
-│   ├── sshd_config_hardened           # Hardened SSH configuration
-│   └── aide.conf                      # AIDE file integrity config
-├── scripts/
-│   ├── suid_demo.c                    # SUID vulnerability demonstration
-│   └── permission_audit.sh            # File permission audit script
-└── reports/
-    └── lynis-suggestions.txt          # Full Lynis audit output
-```
-
 ---
 
 ## 🔍 Key Findings & Results
